@@ -1,0 +1,5 @@
+c:\users\matt\documents\visual studio 2010\Projects\Test Game 1\Test Game 1\bin\Debug\Test Game 1.exe
+c:\users\matt\documents\visual studio 2010\Projects\Test Game 1\Test Game 1\bin\Debug\Test Game 1.pdb
+c:\users\matt\documents\visual studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\matt\documents\visual studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\Test Game 1.exe
+c:\users\matt\documents\visual studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\Test Game 1.pdb

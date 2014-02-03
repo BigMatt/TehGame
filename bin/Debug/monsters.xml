@@ -1,0 +1,104 @@
+﻿
+<monsters>
+<monster name="Matt">
+<Name>Matt</Name>
+  <stats>
+<Strength>150</Strength>
+<Stamina>150</Stamina>
+<Dexterity>150</Dexterity>
+<Intelligence>150</Intelligence>
+<Wisdom>150</Wisdom>
+<Charisma>150</Charisma>
+ <Hits>25</Hits>
+  </stats>
+  <skills>
+<onehanded>150</onehanded>
+<twohanded>150</twohanded>
+<Shield>150</Shield>
+<Unarmed>150</Unarmed>
+<Armor>150</Armor>
+<Toughness>150</Toughness>
+<Deftness>150</Deftness>
+<Hiding>150</Hiding>
+<Stealth>150</Stealth>
+<Traps>150</Traps>
+<Perception>150</Perception>
+<Leadership>150</Leadership>
+<Ranged>150</Ranged>
+<Presence>150</Presence>
+<Awareness>150</Awareness>
+<Mana_Manipulation>150</Mana_Manipulation>
+<Research>150</Research>
+<Magic_Experimentation>150</Magic_Experimentation>
+<Staves>150</Staves>
+<Athletics>150</Athletics>
+<Mana_Flow>150</Mana_Flow>
+<Ambush>150</Ambush>
+<First_Aid>150</First_Aid>
+<Negotiation>150</Negotiation>
+<Charm>150</Charm>
+<Faith>150</Faith>
+<Combat_Strategy>150</Combat_Strategy>
+<Combat_Tactics>150</Combat_Tactics>
+<Combat_Composure>150</Combat_Composure>
+<Siege_Warfare>150</Siege_Warfare>
+<Scouting>150</Scouting>
+<Town_Management>150</Town_Management>
+<Survival>150</Survival>
+  </skills>
+</monster>
+
+  <monster name="Harpy">
+    <Name>Harpy</Name>
+    <stats>
+      <Strength>25</Strength>
+      <Stamina>25</Stamina>
+      <Dexterity>25</Dexterity>
+      <Intelligence>25</Intelligence>
+      <Wisdom>25</Wisdom>
+      <Charisma>25</Charisma>
+      <Hits>25</Hits>
+    </stats>
+    <skills>
+      <onehanded>25</onehanded>
+      <twohanded>25</twohanded>
+      <Shield>25</Shield>
+      <Unarmed>25</Unarmed>
+      <Armor>25</Armor>
+      <Toughness>25</Toughness>
+      <Deftness>25</Deftness>
+      <Hiding>25</Hiding>
+      <Stealth>25</Stealth>
+      <Traps>25</Traps>
+      <Perception>25</Perception>
+      <Leadership>25</Leadership>
+      <Ranged>25</Ranged>
+      <Presence>25</Presence>
+      <Awareness>25</Awareness>
+      <Mana_Manipulation>25</Mana_Manipulation>
+      <Research>25</Research>
+      <Magic_Experimentation>25</Magic_Experimentation>
+      <Staves>25</Staves>
+      <Athletics>25</Athletics>
+      <Mana_Flow>25</Mana_Flow>
+      <Ambush>25</Ambush>
+      <First_Aid>25</First_Aid>
+      <Negotiation>25</Negotiation>
+      <Charm>25</Charm>
+      <Faith>25</Faith>
+      <Combat_Strategy>25</Combat_Strategy>
+      <Combat_Tactics>25</Combat_Tactics>
+      <Combat_Composure>25</Combat_Composure>
+      <Siege_Warfare>25</Siege_Warfare>
+      <Scouting>25</Scouting>
+      <Town_Management>25</Town_Management>
+      <Survival>25</Survival>
+    </skills>
+  </monster>
+  
+  
+  
+  
+  
+  
+</monsters>

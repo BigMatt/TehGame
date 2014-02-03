@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace Test_Game_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Character Player;
+            Character Monster;
+            Random randr = new Random();
+            Fight f;
+
+            Player = new Character(randr, "Matt");
+            Monster = new Character(randr, "Harpy");
+
+            Console.WriteLine("A fight breaks out");
+
+
+        
+            while (Monster.hits > 0)
+            {
+                f = new Fight(Player, "swords", Monster, randr);
+
+                Console.WriteLine(f);
+                if (f.roll > 100 - f.toHit)
+                {
+                    Console.WriteLine("The Attacker scores a " + f.damagetype + " hit for: " + f.damage + " damage.");
+                }
+                else
+                    Console.WriteLine("A miss!");
+
+            }
+            
+
+
+           // Console.WriteLine(Monster.stuff);
+            Console.ReadLine();
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+}

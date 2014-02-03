@@ -1,0 +1,5 @@
+C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\bin\Debug\Test Game 1.exe
+C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\bin\Debug\Test Game 1.pdb
+C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\Test Game 1.exe
+C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\Test Game 1.pdb
