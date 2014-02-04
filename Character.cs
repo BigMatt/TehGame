@@ -19,7 +19,7 @@ namespace Test_Game_1
         public int hits = 0;
         public int defense = 0;
         //public string stuff;
-        private static Random randr = new Random();
+        //private static Random randr = new Random();
 
         public Hashtable skills;
        

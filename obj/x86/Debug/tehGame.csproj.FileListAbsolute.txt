@@ -7,3 +7,4 @@ D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\obj\x86\Debug\Test G
 D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\obj\x86\Debug\Test Game 1.pdb
 D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\bin\Debug\Test Game 1.exe
 D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\bin\Debug\Test Game 1.pdb
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\obj\x86\Debug\tehGame.csprojResolveAssemblyReference.cache

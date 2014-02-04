@@ -24,9 +24,9 @@ namespace Test_Game_1
             this.defender = Defender;
             this.randr = randr;
             this.attackSkill = attackSkill;
-            
 
-            this.roll = Convert.ToInt32(randr.Next(1, 100));
+
+            this.roll = Dice.roll(100);
             this.toHit = attacker.Useskill(attackSkill) - Defender.defense + 90;
             int overhit = roll + toHit - 100;
 
