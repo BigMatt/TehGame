@@ -33,7 +33,7 @@ namespace Test_Game_1
                 }
                 else
                     Console.WriteLine("A miss!");
-
+                //Console.ReadLine();
             }
             
 

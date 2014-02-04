@@ -3,3 +3,7 @@ C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\bin\
 C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\Test Game 1.exe
 C:\Users\matt\Documents\Visual Studio 2010\Projects\Test Game 1\Test Game 1\obj\x86\Debug\Test Game 1.pdb
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\obj\x86\Debug\Test Game 1.exe
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\obj\x86\Debug\Test Game 1.pdb
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\bin\Debug\Test Game 1.exe
+D:\Users\Matt\Documents\Visual Studio 2010\Projects\TehGame\bin\Debug\Test Game 1.pdb
