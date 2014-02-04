@@ -15,8 +15,8 @@ namespace Test_Game_1
             Random randr = new Random();
             Fight f;
 
-            Player = new Character(randr, "Matt");
-            Monster = new Character(randr, "Harpy");
+            Player = new Character("Matt");
+            Monster = new Character("Harpy");
 
             Console.WriteLine("A fight breaks out");
 
