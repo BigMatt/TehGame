@@ -24,7 +24,7 @@ namespace Test_Game_1
         
             while (Monster.hits > 0)
             {
-                f = new Fight(Player, "swords", Monster, randr);
+                f = new Fight(Player, "onehanded", Monster, randr);
 
                 Console.WriteLine(f);
                 if (f.roll > 100 - f.toHit)

@@ -19,12 +19,15 @@ namespace Test_Game_1
         public int hits = 0;
         public int defense = 0;
         //public string stuff;
-        private static Random randr;
+        private static Random randr = new Random();
 
         public Hashtable skills;
        
         public Character(string type)
         {
+
+
+            skills = new Hashtable();
             XElement root = XElement.Load("monsters.xml");
 
             IEnumerable<XElement> mobs =
@@ -35,8 +38,23 @@ namespace Test_Game_1
             //mobs.First();
             XElement mob = mobs.First();
 
-            IEnumerable<XElement> stats= mob.Elements("stats");
 
+            IEnumerable<XElement> skls = mob.Elements("skills");
+
+            foreach (XElement skill in skls.Nodes())
+            {
+                this.skills[skill.Name.LocalName] = Convert.ToInt32(skill.Value);
+
+                //Console.WriteLine("Skill {0}: {1}", skill.Name, this.skills[skill.Name]);
+
+
+
+            }
+
+
+    
+
+            IEnumerable<XElement> stats= mob.Elements("stats");
 
             foreach (XElement attr in stats.Nodes())
             {
@@ -44,27 +62,27 @@ namespace Test_Game_1
                 {
                     case "Strength":
                         strength = Convert.ToInt32(attr.Value);
-                        Console.WriteLine(attr.Name + ": " + attr.Value);
+                       
                         break;
                     case "Dexterity":
                         dexterity = Convert.ToInt32(attr.Value);
-                        Console.WriteLine(attr.Name + ": " + attr.Value);
+                      
                         break;
                     case "Wisdom":
                         wisdom = Convert.ToInt32(attr.Value);
-                        Console.WriteLine(attr.Name + ": " + attr.Value);
+                      
                         break;
                     case "Charisma":
                         charisma = Convert.ToInt32(attr.Value);
-                        Console.WriteLine(attr.Name + ": " + attr.Value);
+                     
                         break;
                     case "Intelligence":
                         intelligence = Convert.ToInt32(attr.Value);
-                        Console.WriteLine(attr.Name + ": " + attr.Value);
+                      
                         break;
                     case "Hits":
                         hits = Convert.ToInt32(attr.Value);
-                        Console.WriteLine(attr.Name + ": " + attr.Value);
+                       
                         break;
                 }
              
@@ -74,7 +92,8 @@ namespace Test_Game_1
 
         public int Useskill(string skill)
         {
-            return 10;
+            //Console.WriteLine("Using Skill: {0} with a value of {1}", skill, this.skills[skill]);
+            return Convert.ToInt32(this.skills[skill]);
         }
     }
 }
