@@ -19,24 +19,13 @@ namespace Test_Game_1
         public int hits = 0;
         public int defense = 0;
         //public string stuff;
-        private Random randr = null;
-
-
+        private static Random randr;
 
         public Hashtable skills;
        
-       
-        
-
-
-        public Character(Random Randr, string type)
+        public Character(string type)
         {
-
-
-
-
             XElement root = XElement.Load("monsters.xml");
-
 
             IEnumerable<XElement> mobs =
                 from el in root.Elements("monster")
@@ -77,94 +66,14 @@ namespace Test_Game_1
                         hits = Convert.ToInt32(attr.Value);
                         Console.WriteLine(attr.Name + ": " + attr.Value);
                         break;
-
-
-
                 }
              
             }
-            
-
-            //Console.WriteLine(mob);
-            
-            //foreach (XElement el in mobs)
-                //Console.WriteLine(el.Value);
-
-
-            /*
-
-
-                        /*
-                        XDocument xdoc = XDocument.Load("monsters.xml");
-
-                        IEnumerable<XElement> mobs = xdoc.Root.Elements();
-
-                        foreach (var mob in mobs)
-                            Console.WriteLine(mob.Element("Name"));
-                        /*
-                        IEnumerable<XElement> stats = mob.Elements();
-
-                        foreach (var stat in stats)
-                            Console.WriteLine(stat);
-
-                        /*
-                         * 
-                         * 
-                         * 
-                         * 
-                        XElement xelement = XElement.Load("monsters.xml");
-                        IEnumerable<XElement> employees = xelement.Elements();
-
-
-           
-
-
-
-
-
-
-                        foreach (var employee in employees)
-                        {
-                            Console.WriteLine(employee.Element("Name").Value);
-                        }
-    
-                        */
-
-
-
-
-
-
-
-
-            
-            /*
-            hits = 100; 
-            strength = 10;
-            dexterity = 10;
-            wisdom = 10;
-            charisma = 10;
-            intellegence = 10;
-            defense = 10;
-            skills = new Hashtable();
-            randr = Randr;
-
-            skills.Add("swords", 15);
-             * */
         }
 
 
         public int Useskill(string skill)
         {
-            /*int result = 0;
-
-            if (skill == "swords")
-                return (int)skills["swords"] + strength;
-
-
-
-            return result;
-             * */
             return 10;
         }
     }

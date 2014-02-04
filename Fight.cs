@@ -59,7 +59,7 @@ namespace Test_Game_1
 
         public override string ToString()
         {
-            return "ATK: +" + attacker.Useskill(attackSkill) + " - DEF: +" + defender.defense + " + Roll + " + this.roll + " = " + this.toHit + "% chance to hit";
+            return "ATK: +" + attacker.Useskill(attackSkill) + " - DEF: +" + defender.defense + " + Roll: " + this.roll + " = " + this.toHit + "% chance to hit";
         }
 
     }
