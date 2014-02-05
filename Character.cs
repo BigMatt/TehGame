@@ -10,7 +10,6 @@ namespace Test_Game_1
 {
     class Character
     {
-
         public int strength=0;
         public int dexterity = 0;
         public int wisdom = 0;
@@ -25,8 +24,6 @@ namespace Test_Game_1
        
         public Character(string type)
         {
-
-
             skills = new Hashtable();
             XElement root = XElement.Load("monsters.xml");
 
@@ -44,16 +41,7 @@ namespace Test_Game_1
             foreach (XElement skill in skls.Nodes())
             {
                 this.skills[skill.Name.LocalName] = Convert.ToInt32(skill.Value);
-
-                //Console.WriteLine("Skill {0}: {1}", skill.Name, this.skills[skill.Name]);
-
-
-
             }
-
-
-    
-
             IEnumerable<XElement> stats= mob.Elements("stats");
 
             foreach (XElement attr in stats.Nodes())
@@ -88,7 +76,6 @@ namespace Test_Game_1
              
             }
         }
-
 
         public int Useskill(string skill)
         {
